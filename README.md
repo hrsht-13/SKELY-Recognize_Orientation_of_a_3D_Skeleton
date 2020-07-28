@@ -10,7 +10,7 @@ For input you will be given a large number of images, for about half of them, we
 ## Dataset
 The training dataset consists of 9999 images of size 2048x1898 with 4 channels each (for RGBA). The associated label is a single continuous variables :
 
-xRot : Orientation of the Skeleton, in degrees, along an arbitrarily chosen axis (a number between 0 and 360). The axis around which this value is measured, is consitent across the whole of the training and the test set.
+```xRot```: Orientation of the Skeleton, in degrees, along an arbitrarily chosen axis (a number between 0 and 360). The axis around which this value is measured, is consitent across the whole of the training and the test set.
 The test dataset consists of 10001 images of size 2048x1898 with 4 channels each (for RGBA). The goal of the task is to predict the xRot value of the Skeleton in these test images.
 
 ## Evaluation Criteria
